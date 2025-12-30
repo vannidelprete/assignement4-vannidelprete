@@ -150,10 +150,12 @@ mkdir -p ${OUTDIR}/rootfs/home/conf
 cp ${FINDER_APP_DIR}/../conf/username.txt ${OUTDIR}/rootfs/home/conf/
 cp ${FINDER_APP_DIR}/../conf/assignment.txt ${OUTDIR}/rootfs/home/conf/
 cp ${FINDER_APP_DIR}/writer ${OUTDIR}/rootfs/home/
+cp ${FINDER_APP_DIR}/autorun-qemu.sh ${OUTDIR}/rootfs/home/
 
 chmod +x ${OUTDIR}/rootfs/home/finder.sh
 chmod +x ${OUTDIR}/rootfs/home/finder-test.sh
 chmod +x ${OUTDIR}/rootfs/home/writer
+chmod +x ${OUTDIR}/rootfs/home/autorun-qemu.sh
 
 echo "Scripts and executables copied to /home"
 
